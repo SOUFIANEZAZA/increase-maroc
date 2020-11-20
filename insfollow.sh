@@ -114,7 +114,7 @@ lbenjofficial="356803478"
 
 
 if [[ ! -e celeb_id ]]; then
-printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $dualipa $mileycyrus $shawnmendes $katyperry $charlieputh $lelepons $camila_cabello $madonna $leonardodicaprio $ladygaga $taylorswift $instagram $neymar $selena $ariana $beyonce $cristiano $kimkardashian $kendall $therock $kylie $jelopez $messi > celeb_id
+printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $mustapha_swinga $raghib.official $fayssal_vlog $adiltaouil $reda_elwahabii $rajaabelmir $omarbelmir $meryemasouab $kawtarbamo $manalbenchlikha $salmarachid.official $hbirkousafae_officiel $dunia_batma $saadlamjarred1 $zouhairbahaoui $nouamanbelaiachi $aminuxamine $hatimammor $allalirachid $douziofficial $simosedraty $l7or75 $lbenjofficial > celeb_id
 fi
 
 while [[ true ]]; do
