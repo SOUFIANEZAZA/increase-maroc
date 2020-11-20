@@ -18,7 +18,7 @@ Best Tool For Increase Instagram Follower MOROCCO
 
 `$ pkg install git`
 
-`$ git clone https://github.com/termuxprofessor/insfollow`
+`$ git clone https://github.com/SOUFIANEZAZA/increase-maroc`
 
 `$ cd insfollow`
 
