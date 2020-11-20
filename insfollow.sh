@@ -86,8 +86,7 @@ sleep 5
 username_id=$(curl -L -s 'https://www.instagram.com/'$user'' > getid && grep -o  'profilePage_[0-9]*.' getid | cut -d "_" -f2 | tr -d '"')
 
 mustapha_swinga="2048833219"
-raghib.official
-="236178247"
+raghib.official="236178247"
 fayssal_vlog="3152504342"
 adiltaouil="1451846619"
 reda_elwahabii="1525508148"
@@ -96,8 +95,7 @@ omarbelmir="288041214"
 meryemasouab="1582907522"
 kawtarbamo="357315233"
 manalbenchlikha="1550993292"
-salmarachid.official
-="634912408"
+salmarachid.official="634912408"
 
 hbirkousafae_officiel="965109348"
 dunia_batma="1097161420"
