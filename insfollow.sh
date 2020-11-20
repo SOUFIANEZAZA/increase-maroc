@@ -86,16 +86,16 @@ sleep 5
 username_id=$(curl -L -s 'https://www.instagram.com/'$user'' > getid && grep -o  'profilePage_[0-9]*.' getid | cut -d "_" -f2 | tr -d '"')
 
 mustapha_swinga="2048833219"
-raghib.official="236178247"
+oussamaramzi1="1502093421"
 fayssal_vlog="3152504342"
 adiltaouil="1451846619"
 reda_elwahabii="1525508148"
 rajaabelmir="1194179329"
 omarbelmir="288041214"
 meryemasouab="1582907522"
-kawtarbamo="357315233"
+tahaessou="560202889"
 manalbenchlikha="1550993292"
-salmarachid.official="634912408"
+kawtarbamo="634912408"
 
 hbirkousafae_officiel="965109348"
 dunia_batma="1097161420"
@@ -112,7 +112,7 @@ lbenjofficial="356803478"
 
 
 if [[ ! -e celeb_id ]]; then
-printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $mustapha_swinga $raghib.official $fayssal_vlog $adiltaouil $reda_elwahabii $rajaabelmir $omarbelmir $meryemasouab $kawtarbamo $manalbenchlikha $salmarachid.official $hbirkousafae_officiel $dunia_batma $saadlamjarred1 $zouhairbahaoui $nouamanbelaiachi $aminuxamine $hatimammor $allalirachid $douziofficial $simosedraty $l7or75 $lbenjofficial > celeb_id
+printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $mustapha_swinga $oussamaramzi1 $fayssal_vlog $adiltaouil $reda_elwahabii $rajaabelmir $omarbelmir $meryemasouab $tahaessou $manalbenchlikha $kawtarbamo $hbirkousafae_officiel $dunia_batma $saadlamjarred1 $zouhairbahaoui $nouamanbelaiachi $aminuxamine $hatimammor $allalirachid $douziofficial $simosedraty $l7or75 $lbenjofficial > celeb_id
 fi
 
 while [[ true ]]; do
