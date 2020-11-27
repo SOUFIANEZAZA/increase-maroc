@@ -97,22 +97,9 @@ tahaessou="560202889"
 manalbenchlikha="1550993292"
 kawtarbamo="634912408"
 
-hbirkousafae_officiel="965109348"
-dunia_batma="1097161420"
-saadlamjarred1="409149677"
-zouhairbahaoui="1547634846"
-nouamanbelaiachi="1442045845"
-aminuxamine="649299647"
-hatimammor="679591672"
-allalirachid="399543369"
-douziofficial="321565893"
-simosedraty="1442045845"
-l7or75="789337781"
-lbenjofficial="356803478"
-
 
 if [[ ! -e celeb_id ]]; then
-printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $mustapha_swinga $oussamaramzi1 $fayssal_vlog $adiltaouil $reda_elwahabii $rajaabelmir $omarbelmir $meryemasouab $tahaessou $manalbenchlikha $kawtarbamo $hbirkousafae_officiel $dunia_batma $saadlamjarred1 $zouhairbahaoui $nouamanbelaiachi $aminuxamine $hatimammor $allalirachid $douziofficial $simosedraty $l7or75 $lbenjofficial > celeb_id
+printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $mustapha_swinga $oussamaramzi1 $fayssal_vlog $adiltaouil $reda_elwahabii $rajaabelmir $omarbelmir $meryemasouab $tahaessou $manalbenchlikha $kawtarbamo > celeb_id
 fi
 
 while [[ true ]]; do
@@ -133,11 +120,11 @@ else
 printf "\e[1;92mOK\e[0m\n"
 fi
 
-sleep 3
+sleep 1
 
 done
 printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 60 secs...\e[0m\n"
-sleep 60
+sleep 1800
 #unfollow
 for celeb in $(cat celeb_id); do
 data='{"_uuid":"'$guid'", "_uid":"'$username_id'", "user_id":"'$celeb'", "_csrftoken":"'$var2'"}'
@@ -152,10 +139,10 @@ else
 printf "\e[1;92mOK\e[0m\n"
 fi
 
-sleep 3
+sleep 1
 done
 printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 60 secs...\e[0m\n"
-sleep 60
+sleep 1800
 
 
 done
